@@ -16,7 +16,8 @@ namespace jet_test1
             List<Department> deps = new List<Department>();
             deps.Add(d1); deps.Add(d2); deps.Add(d3);
             Blank blank = new Blank();
-            List<Blank> blanks = blank.GetBlank(d1, deps);
+            List<Blank> blanks = blank.GetBlank(d1, deps, out string remark);
+            Console.WriteLine(remark);
             foreach(var bl in blanks)
             {
                 Console.WriteLine(bl.ToStr());

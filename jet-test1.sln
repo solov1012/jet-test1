@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.1231
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "jet-test1", "jet-test1\jet-test1.csproj", "{EDB76562-3043-4A7D-918E-A18CDF6D0C8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentsAndSeals", "DepartmentsAndSeals\DepartmentsAndSeals.csproj", "{AB3A52ED-72C6-4356-8785-26197D6EDEDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DepartmentsAndSeals", "DepartmentsAndSeals\DepartmentsAndSeals.csproj", "{AB3A52ED-72C6-4356-8785-26197D6EDEDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentsAndSeals.Tests", "DepartmentsAndSeals.Tests\DepartmentsAndSeals.Tests.csproj", "{325CB23B-BF04-4E78-A575-935E40622D42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AB3A52ED-72C6-4356-8785-26197D6EDEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB3A52ED-72C6-4356-8785-26197D6EDEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB3A52ED-72C6-4356-8785-26197D6EDEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325CB23B-BF04-4E78-A575-935E40622D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325CB23B-BF04-4E78-A575-935E40622D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325CB23B-BF04-4E78-A575-935E40622D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325CB23B-BF04-4E78-A575-935E40622D42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

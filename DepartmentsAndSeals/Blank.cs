@@ -37,8 +37,9 @@ namespace DepartmentsAndSeals
             return todepResult;
         }
 
-        public List<Blank> GetBlank(Department department, List<Department> departments)
+        public List<Blank> GetBlank(Department department, List<Department> departments, out string remark)
         {
+            remark = "";
             List<Blank> blanks = new List<Blank>();
             Department chosenDep = new Department();
             int lastDepId = 0;
@@ -60,16 +61,24 @@ namespace DepartmentsAndSeals
                     todep = Operations(chosenDep, departments, chosenDep.add2, chosenDep.delete2, chosenDep.todep2);
                 }
                 if (chosenDep.lastVisitBlank.Except(seals).Count() == 0
-                    && chosenDep.lastVisitBlank.Count() == seals.Count()
+                    && chosenDep.lastVisitBlank.Count == seals.Count
                     && chosenDep.whichtodep == todep.id)
-                { Console.WriteLine("бесконечный цикл"); break; }
+                { remark += " Бесконечный цикл "; break; }
                 chosenDep.lastVisitBlank.Clear();
                 chosenDep.lastVisitBlank.AddRange(seals);
                 chosenDep.whichtodep = todep.id;
-                if (department.id == chosenDep.id) blanks.Add(new Blank(seals));
+                if (department.id == chosenDep.id)
+                {
+                    bool isUniqueSeals=true;
+                    foreach (Blank bl in blanks)
+                    {
+                        if (bl.seals.Except(seals).Count() == 0 && bl.seals.Count == seals.Count) isUniqueSeals = false;
+                    }
+                    if (isUniqueSeals) blanks.Add(new Blank(new List<int>(seals)));
+                }
                 chosenDep = todep;
             }
-            if (blanks.Count == 0) Console.WriteLine("Ни разу не были в этом отделе");
+            if (blanks.Count == 0) remark += " Ни разу не были в этом отделе ";
             return blanks;
         }
     }

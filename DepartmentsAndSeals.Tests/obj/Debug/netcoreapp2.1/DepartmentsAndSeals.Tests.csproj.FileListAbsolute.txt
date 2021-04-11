@@ -1,0 +1,17 @@
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.deps.json
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.runtimeconfig.json
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.runtimeconfig.dev.json
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.dll
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.pdb
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.dll
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.pdb
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.csprojAssemblyReference.cache
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.AssemblyInfo.cs
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.csproj.CopyComplete
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.dll
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals.Tests\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.Tests.pdb
