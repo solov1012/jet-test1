@@ -207,16 +207,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "DepartmentsAndSeals/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/DepartmentsAndSeals.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DepartmentsAndSeals.dll": {}
-        }
       }
     }
   },
@@ -691,16 +681,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "DepartmentsAndSeals/1.0.0": {
-      "type": "project",
-      "path": "../DepartmentsAndSeals/DepartmentsAndSeals.csproj",
-      "msbuildProject": "../DepartmentsAndSeals/DepartmentsAndSeals.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "DepartmentsAndSeals >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -711,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Desktop\\jet-test\\jet-test1\\jet-test1.csproj",
-      "projectName": "jet-test1",
-      "projectPath": "C:\\Users\\1\\Desktop\\jet-test\\jet-test1\\jet-test1.csproj",
+      "projectUniqueName": "C:\\Users\\1\\Desktop\\jet-test\\DepartmentsAndSeals\\DepartmentsAndSeals.csproj",
+      "projectName": "DepartmentsAndSeals",
+      "projectPath": "C:\\Users\\1\\Desktop\\jet-test\\DepartmentsAndSeals\\DepartmentsAndSeals.csproj",
       "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Desktop\\jet-test\\jet-test1\\obj\\",
+      "outputPath": "C:\\Users\\1\\Desktop\\jet-test\\DepartmentsAndSeals\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -733,11 +717,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "C:\\Users\\1\\Desktop\\jet-test\\DepartmentsAndSeals\\DepartmentsAndSeals.csproj": {
-              "projectPath": "C:\\Users\\1\\Desktop\\jet-test\\DepartmentsAndSeals\\DepartmentsAndSeals.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -750,6 +730,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

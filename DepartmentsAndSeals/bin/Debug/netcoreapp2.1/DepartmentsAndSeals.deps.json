@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "jet-test1/1.0.0": {
-        "dependencies": {
-          "DepartmentsAndSeals": "1.0.0"
-        },
-        "runtime": {
-          "jet-test1.dll": {}
-        }
-      },
       "DepartmentsAndSeals/1.0.0": {
         "runtime": {
           "DepartmentsAndSeals.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "jet-test1/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "DepartmentsAndSeals/1.0.0": {
       "type": "project",
       "serviceable": false,

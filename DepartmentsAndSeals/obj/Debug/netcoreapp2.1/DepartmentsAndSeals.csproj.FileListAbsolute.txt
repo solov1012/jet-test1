@@ -1,0 +1,9 @@
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.deps.json
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.dll
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\bin\Debug\netcoreapp2.1\DepartmentsAndSeals.pdb
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.csprojAssemblyReference.cache
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.AssemblyInfo.cs
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.dll
+C:\Users\1\Desktop\jet-test\DepartmentsAndSeals\obj\Debug\netcoreapp2.1\DepartmentsAndSeals.pdb

@@ -6,4 +6,8 @@
     <RootNamespace>jet_test1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DepartmentsAndSeals\DepartmentsAndSeals.csproj" />
+  </ItemGroup>
+
 </Project>
